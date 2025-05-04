@@ -1,12 +1,190 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="styles.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta charset="UTF-8" />
-    <title>Résumé</title>
-  </head>
-  <body>
-    ― Hello World! &#x1F609;
-  </body>
+
+<head>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <title>Résumé</title>
+</head>
+
+<body>
+  <main>
+    <div class="resume">
+      <div class="container">
+        <div class="resume__block">
+          <h1 class="contact-info__header">Illia Prokopenko</h1>
+          <h3 class="contact-info__sub-header">Full-Stack Developer</h3>
+          <div class="contact_info_container fh">
+            <div class="contact-info__block">
+              <a href="" rel="author" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                    <path d="M172.268 501.67C26.97 291.031 0 269.413 0 192 0 85.961 85.961 0 192
+                        0s192 85.961 192 192c0 77.413-26.97 99.031-172.268 309.67-9.535
+                        13.774-29.93 13.773-39.464 0zM192 272c44.183 0 80-35.817
+                        80-80s-35.817-80-80-80-80 35.817-80 80 35.817 80 80 80z"></path>
+                  </svg>
+                </div>
+                <span>Canada</span>
+              </a>
+
+              <a href="https://github.com/nobiqp" rel="author" class="contact-info__item">
+                <div class="contact-info__item-icon-wrapper">
+                  <svg class="contact-info__item-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+                    <path
+                      d="M15,3C8.373,3,3,8.373,3,15c0,5.623,3.872,10.328,9.092,11.63C12.036,26.468,12,26.28,12,26.047v-2.051 c-0.487,0-1.303,0-1.508,0c-0.821,0-1.551-0.353-1.905-1.009c-0.393-0.729-0.461-1.844-1.435-2.526 c-0.289-0.227-0.069-0.486,0.264-0.451c0.615,0.174,1.125,0.596,1.605,1.222c0.478,0.627,0.703,0.769,1.596,0.769 c0.433,0,1.081-0.025,1.691-0.121c0.328-0.833,0.895-1.6,1.588-1.962c-3.996-0.411-5.903-2.399-5.903-5.098 c0-1.162,0.495-2.286,1.336-3.233C9.053,10.647,8.706,8.73,9.435,8c1.798,0,2.885,1.166,3.146,1.481C13.477,9.174,14.461,9,15.495,9 c1.036,0,2.024,0.174,2.922,0.483C18.675,9.17,19.763,8,21.565,8c0.732,0.731,0.381,2.656,0.102,3.594 c0.836,0.945,1.328,2.066,1.328,3.226c0,2.697-1.904,4.684-5.894,5.097C18.199,20.49,19,22.1,19,23.313v2.734 c0,0.104-0.023,0.179-0.035,0.268C23.641,24.676,27,20.236,27,15C27,8.373,21.627,3,15,3z">
+                    </path>
+                  </svg>
+                </div>
+                <span style="white-space: nowrap">Illia Prokopenko</span>
+              </a>
+
+
+
+            </div>
+            <div class="contact-info__block">
+              <div class="contact-info__block contact-info__block--center">
+                <img class="contact-info__avatar click-sound-trigger" src="assets/avatar.png" alt="Avatar" />
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="intro">
+              <div class="intro__icon-wrapper">
+                <svg class="intro__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <path d="M464 256h-80v-64c0-35.3 28.7-64 64-64h8c13.3 0 24-10.7
+                      24-24V56c0-13.3-10.7-24-24-24h-8c-88.4 0-160 71.6-160 160v240c0
+                      26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                      48-48V304c0-26.5-21.5-48-48-48zm-288 0H96v-64c0-35.3 28.7-64
+                      64-64h8c13.3 0 24-10.7 24-24V56c0-13.3-10.7-24-24-24h-8C71.6
+                      32 0 103.6 0 192v240c0 26.5 21.5 48 48 48h128c26.5 0 48-21.5
+                      48-48V304c0-26.5-21.5-48-48-48z"></path>
+                </svg>
+              </div>
+              <p class="intro_text">
+                I'm Illia, a software developer passionate about innovation
+                and problem-solving. With a solid foundation in computer
+                science, I strive to create efficient, impactful solutions and
+                bring ideas to life through clean, purposeful code.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="skills">
+              <h3 class="skills__header">Skills</h3>
+              <p class="skills__text">
+
+              <ul>
+                <li><strong>Programming Languages:</strong> Java, Python, Swift, JavaScript</li>
+                <li><strong>Database Management:</strong> SQL, relational databases, query optimization</li>
+                <li><strong>Web Development:</strong> HTML, CSS, REST APIs</li>
+                <li><strong>Tools &amp; Platforms:</strong> Git, Google Cloud, Oracle Cloud</li>
+                <li><strong>Problem-Solving:</strong> Algorithm development, data analysis, workflow optimization</li>
+                <li><strong>Soft Skills:</strong> Communication, teamwork and project management</li>
+              </ul>
+
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container">
+          <div class="resume__block">
+            <div class="main-info fh">
+              <div class="experiences">
+
+                <h3 class="experiences__header">Education</h3>
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability">2022-2024</span>
+                    <h3 class="experiences__company-header-name">V.I. Vernadsky Taurida National University
+                    </h3>
+                  </div>
+
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role">Master’s Degree</span>
+                    <h3 class="experiences__company-project-name">Computer Engineering</h3>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Semantic Search</li>
+                      <li>Information Retrieval</li>
+                      <li>Natural Language Processing (NLP)</li>
+                      <li>Machine Learning Integration</li>
+                      <li>System Architecture Design</li>
+                      <li>Algorithm Optimization</li>
+                      <li>Data Structures and Indexing</li>
+                      <li>Full Stack Development</li>
+                      <li>Research & Technical Writing</li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="experiences__company">
+                  <div class="experiences__company-header">
+                    <span class="experiences__company-header-durability">2018-2022</span>
+                    <h3 class="experiences__company-header-name">V.I. Vernadsky Taurida National University
+                    </h3>
+                  </div>
+
+                  <div class="experiences__company-project">
+                    <span class="experiences__company-project-role">Bachelor’s Degree</span>
+                    <h3 class="experiences__company-project-name">Computer Engineering</h3>
+                    <ul class="experiences__company-project-responsibilities">
+                      <li>Computer Vision</li>
+                      <li>Image Processing</li>
+                      <li>Embedded Systems Programming</li>
+                      <li>Arduino Development</li>
+                      <li>Microcontroller Programming</li>
+                      <li>Sensor Integration</li>
+                      <li>Real-Time Systems</li>
+                      <li>Hardware-Software Integration</li>
+
+                    </ul>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="additional-info fv">
+
+                <div class="additional-info fv">
+                  <div class="additional-info__education">
+                    <h3 class="additional-info__education-header">Additional Education</h3>
+                    <div class="additional-info__education-university">
+                      <span class="additional-info__education-university-durability">2025</span>
+                      <h3 class="additional-info__education-university-speciality">
+                        Computer Science Course
+                      </h3>
+                      <p class="additional-info__education-university-name">
+                        Princeton University
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="additional-info__languages">
+                    <h3 class="additional-info__languages-header">Languages</h3>
+                    <p class="additional-info__languages-item">English</p>
+                    <p class="additional-info__languages-item">
+                      Ukrainian
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+</body>
 </html>
